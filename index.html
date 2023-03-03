@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/275edc9f9d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/loader.js"defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Title here</title>
+</head>
+<body onload="afterloading()">
+     <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> 
+
+    <section class="s1" id="s1">
+
+        <header class="header">
+            <!-- <img src="./pictures/Untitled.png" alt=""> -->
+            <p>Logo</p>
+            <div class="options">
+                <ul>
+                    <li><a class="list onscreen" href="#s1" id="services">HOME</a></li>
+                    <li><a class="list" href="#s2" id="services">SERVICES</a></li>
+                    <li><a class="list" href="#s3" id="contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <button id="register">Register</button>
+        </header>
+        <div class="content">
+            <span id="sp1" class="animate"> Get Quick </span>
+            <span id="sp2" class="animate"> Medical Services </span>
+            <span id="sp3" class="animate">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Laborum eos provident minima obcaecati deserunt repellendus quia. 
+            </span><br>
+        </div>
+        <div class="hold animate1">
+            <form action="#">
+                <div class="formlogo animate1">Logo</div>
+                <div class="formtitle animate1">WELCOME</div>
+                <div class="inputContent animate1">       
+                    <input type="text" id="username" required placeholder="USERNAME" autocomplete="off">
+                    <label for="username">Username</label>
+                </div>
+                <div class="inputContent animate1">   
+                    <input type="password" id="password" required placeholder="PASSWORD" autocomplete="off">
+                    <label for="password">Password</label>
+                </div>
+                <button type="submit" class="animate1">LOGIN</button>
+                <div class="forgot animate1"><a href="">Forgot Password?</a></div>
+            </form>
+            
+        </div>
+    </section>
+    <section class="s2" id="s2">
+        <div class="s2title">
+            <p id="p1" class="animate1">WHAT WE DO</p>
+            <p id="p2" class="animate">WE PROVIDE SERVICES</p>
+            <p id="p3" class="animate1"></p>
+        </div>
+        <div class="services">
+            <div class="service animate">
+                <img src="pictures/bg.jpg" alt="" class="animate">
+                <div class="description">
+                    <div class="dtitle animate">Service 1</div>
+                    <div class="dtext animate">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+            <div class="service animate">
+                <img src="pictures/bg.jpg" alt="" class="animate">
+                <div class="description">
+                    <div class="dtitle animate">Service 2</div>
+                    <div class="dtext animate">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+            <div class="service animate1">
+                <img src="pictures/bg.jpg" alt="" class="animate1">
+                <div class="description">
+                    <div class="dtitle animate1">Service 3</div>
+                    <div class="dtext animate1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+            </div>
+            <div class="service animate1">
+                <img src="pictures/bg.jpg" alt="" class="animate1">
+                <div class="description">
+                    <div class="dtitle animate1">See More</div>
+                    <div class="dtext animate1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Officiis repudiandae cupiditate pariatur rerum eum, 
+                        minima enim dicta deserunt nisi ipsa ratione aut vero dolorum unde.
+                         Aliquam, culpa. Delectus, autem architecto!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s3" id="s3">
+        <div class="contactContainer">
+            <div class="container1">
+                <div class="contactText">
+                    <span id="c2" class="animate">Get In Touch With Us</span>
+                    <span id="c3" class="animate">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Accusantium ad maiores vel veniam neque impedit inventore eveniet, 
+                        blanditiis sint nesciunt sapiente? Beatae recusandae,
+                         alias quas quibusdam ab ducimus facilis in!</span>
+                </div>
+                <div class="container2">
+                    <div class="contact animate">
+                        <div class="clogo"><i class="fa-solid fa-map-location"></i></div>
+                        <div class="ctext">
+                            <span class="c4 animate">Location</span>
+                            <span class="c5 animate">your location, your place, your site</span>
+                        </div>
+                    </div>
+                    <div class="contact animate">
+                        <div class="clogo"><i class="fa-solid fa-phone"></i></div>
+                        <div class="ctext">
+                            <span class="c4 animate">Contact Number</span>
+                            <span class="c5 animate">0920XXXXXXX</span>
+                        </div>
+                    </div>
+                    <div class="contact animate">
+                        <div class="clogo"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="ctext">
+                            <span class="c4 animate">Email</span>
+                            <span class="c5 animate">Youeeamail@domain.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container3">
+                <div class="holder animate1">
+                    <form action="#">
+                        <div class="formtitle animate1">We're waiting for you!</div>
+                        <div class="input animate1">       
+                            <input type="text" id="name" required placeholder="Name" autocomplete="off">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="input animate1">   
+                            <input type="text" id="number" required placeholder="Contact Number" autocomplete="off">
+                            <label for="number">Number</label>
+                        </div>
+                        <div class="input animate1">       
+                            <input type="text" id="email" required placeholder="Email" autocomplete="off">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input animate1">       
+                            <textarea id="messae" cols="4" rows="10" placeholder="Enter Message" required></textarea>
+                        </div>
+                        <button type="submit" class="animate1">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
